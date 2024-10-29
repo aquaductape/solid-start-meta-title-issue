@@ -3,6 +3,8 @@ import { createSignal, Match, Show, Switch } from "solid-js";
 
 // This is client-side issue
 
+// When there's more than two Titles and they are conditionally rendered, one of the Titles persists forever until it is dismounted.
+
 // In order to see other Title forever persisting, you must change conditions at least 3 times aka click the button 3 times
 // Originally I thought if there are more than two Titles inside JSX component and at least one of those Titles is conditionally rendered, the ancestor Title of that JSX component takes precidence.
 
