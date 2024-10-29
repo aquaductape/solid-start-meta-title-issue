@@ -1,5 +1,5 @@
-import { Title } from "@solidjs/meta";
 import { createSignal, Match, Show, Switch } from "solid-js";
+import { Title } from "@solidjs/meta";
 
 // This is client-side issue
 
@@ -39,9 +39,6 @@ const AllSections = () => {
   return (
     <div>
       <Title>All Sections</Title>
-      {/* <Show when={showSection() === "B"}>
-        <Title>????</Title>
-      </Show> */}
       {/* <Title>All ???</Title> */}
       <button onClick={() => setShowAll(!showAll())}>
         {showAll() ? "Remove" : "Show"} all
